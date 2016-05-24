@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Enter App</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ftp_server">000emuh.wcomhost.com</string>
+    <string name="ftp_user">serveruploads</string>
+    <string name="ftp_password">Report14</string>
+    <string name="ftp_base_directory">/htdocs/images/</string>
+</resources>

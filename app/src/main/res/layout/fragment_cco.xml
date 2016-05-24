@@ -1,0 +1,1070 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.fragment_CCO"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="220dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+
+        android:layout_marginRight="20dp"
+        >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+        <TextView
+            android:textColor="#D9000000"
+            android:textSize="25dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Instructivo :"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/alert_blue"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+
+
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <TextView
+            android:textColor="#D9000000"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="1) The App bar, toolbar and system status bar \n2) can be customized using your palette.\n3) In this example, the toolbar uses the 500\n4) version of indigo, while the status bar \n5) Los campos con '*' son obligatorios "
+
+            android:layout_weight="1"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:orientation="vertical"
+
+        android:layout_marginTop="30dp"
+        android:background="#F5F5F5"
+        >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        >
+        <TextView
+            android:textColor="#D9000000"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="* Nombre del Trabajador :"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            />
+        <EditText
+            android:id="@+id/edit_nombre"
+            android:layout_marginLeft="5dp"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        >
+        <TextView
+            
+            android:textColor="#D9000000"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="* SAC/DNI :"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            />
+        <EditText
+            android:id="@+id/edit_sacdni"
+            android:layout_marginLeft="5dp"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:orientation="vertical"
+
+        android:layout_marginTop="30dp"
+        android:background="#F5F5F5"
+        >
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        >
+        <TextView
+            android:textColor="#D9000000"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="* Turno:"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            />
+
+        <Spinner
+
+            android:layout_marginLeft="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spin_turno"
+            android:textSize="15dp"
+            android:layout_weight="1" />
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        >
+        <TextView
+            android:textColor="#D9000000"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="* Area de Origen:"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            />
+
+        <Spinner
+
+            android:layout_marginLeft="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spin_areori"
+            android:textSize="15dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        >
+        <TextView
+            android:textColor="#D9000000"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="* Area de Observacion:"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            />
+
+        <Spinner
+            android:layout_marginLeft="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spin_areobs"
+            android:textSize="15dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#F242A5F5">
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:paddingTop="12dp"
+
+            android:textSize="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comportamiento critico Observado"
+            android:layout_gravity="center"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#F5F5F5">
+
+        <TextView
+            android:textColor="@color/colorAccent"
+            android:paddingTop="12dp"
+
+            android:textSize="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EPP :"
+            android:layout_gravity="left"
+            android:paddingLeft="35dp"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="163dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        >
+
+        <CheckBox
+            android:textColor="#D9000000"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="No se usa"
+            android:id="@+id/check_epp_nousa"
+            android:layout_gravity="center_horizontal" />
+        <CheckBox
+            android:textColor="#D9000000"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Uso en Forma Incorrecta"
+            android:id="@+id/check_epp_incor"
+            android:layout_gravity="center_horizontal" />
+        <CheckBox
+            android:textColor="#D9000000"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Usa EPP Deteriorado"
+            android:id="@+id/check_epp_deter"
+            android:layout_gravity="center_horizontal" />
+        <CheckBox
+            android:textColor="#D9000000"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="No usar chaleco reflectivo"
+            android:id="@+id/check_epp_refle"
+            android:layout_gravity="center_horizontal" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        >
+        <TextView
+            android:textColor="#D9000000"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="¿Cual E.P.P?"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            />
+
+
+        <EditText
+
+            android:textSize="15dp"
+            android:id="@+id/edit_epp_cual"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+
+        android:background="#F5F5F5">
+
+        <TextView
+            android:textColor="@color/colorAccent"
+            android:paddingTop="12dp"
+
+            android:textSize="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Maquina / Equipo :"
+            android:layout_gravity="left"
+            android:paddingLeft="35dp"
+
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        >
+
+        <CheckBox
+            android:textColor="#D9000000"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Opera a Velocidad Inadecuada"
+            android:id="@+id/check_maq_veloc"
+            android:layout_gravity="center_horizontal" />
+        <CheckBox
+            android:textColor="#D9000000"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Desactivo Dispositivos de seguridad"
+            android:id="@+id/check_maq_disp"
+            android:layout_gravity="center_horizontal" />
+        <CheckBox
+            android:textColor="#D9000000"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Introduce las manos o alguna parte del cuerpo a partes en movimiento"
+            android:id="@+id/check_maq_intro"
+            android:layout_gravity="center_horizontal" />
+        <CheckBox
+            android:textColor="#D9000000"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Opera sin autorizacion"
+            android:id="@+id/check_maq_opera"
+            android:layout_gravity="center_horizontal" />
+        <CheckBox
+            android:textColor="#D9000000"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Usar Equipo defectuoso"
+            android:id="@+id/check_maq_defec"
+            android:layout_gravity="center_horizontal" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+
+        android:background="#F5F5F5">
+
+        <TextView
+            android:textColor="@color/colorAccent"
+            android:paddingTop="12dp"
+
+            android:textSize="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exposicion a riesgos :"
+            android:layout_gravity="left"
+            android:paddingLeft="35dp"
+
+            />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="263dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        >
+
+        <CheckBox
+            android:textColor="#D9000000"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Golpeado Contra"
+            android:id="@+id/check_exp_golpe"
+            android:layout_gravity="center_horizontal" />
+        <CheckBox
+            android:textColor="#D9000000"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Ser Alcanzado po"
+            android:id="@+id/check_exp_alcan"
+            android:layout_gravity="center_horizontal" />
+        <CheckBox
+            android:textColor="#D9000000"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Atascarse"
+            android:id="@+id/check_exp_atasc"
+            android:layout_gravity="center_horizontal" />
+        <CheckBox
+            android:textColor="#D9000000"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Caida"
+            android:id="@+id/check_exp_caida"
+            android:layout_gravity="center_horizontal" />
+        <CheckBox
+            android:textColor="#D9000000"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Quemadura"
+            android:id="@+id/check_exp_quema"
+            android:layout_gravity="center_horizontal" />
+
+        <CheckBox
+            android:textColor="#D9000000"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Choque Electrico"
+            android:id="@+id/check_exp_choque"
+            android:layout_gravity="center_horizontal" />
+
+        <CheckBox
+            android:textColor="#D9000000"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Inhalar Productos"
+            android:id="@+id/check_exp_inhalar"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+
+        android:background="#F5F5F5">
+
+        <TextView
+            android:textColor="@color/colorAccent"
+            android:paddingTop="12dp"
+
+            android:textSize="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Herramientas y Equipos Inadecuados :"
+            android:layout_gravity="left"
+            android:paddingLeft="35dp"
+
+            />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        >
+
+        <CheckBox
+            android:textColor="#D9000000"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Impropios / Improvisados"
+            android:id="@+id/check_her_impro"
+            android:layout_gravity="center_horizontal" />
+        <CheckBox
+            android:textColor="#D9000000"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Usados Incorrectamente"
+            android:id="@+id/check_her_incor"
+            android:layout_gravity="center_horizontal" />
+        <CheckBox
+            android:textColor="#D9000000"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="En condiciones Inadecuadas"
+            android:id="@+id/check_her_inade"
+            android:layout_gravity="center_horizontal" />
+        <CheckBox
+            android:textColor="#D9000000"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="En mal estado"
+            android:id="@+id/check_her_malest"
+            android:layout_gravity="center_horizontal" />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+
+        android:background="#F5F5F5">
+
+        <TextView
+            android:textColor="@color/colorAccent"
+            android:paddingTop="12dp"
+
+            android:textSize="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Otros :"
+            android:layout_gravity="left"
+            android:paddingLeft="35dp"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        >
+
+        <CheckBox
+            android:textColor="#D9000000"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Jugar / Pelear"
+            android:id="@+id/check_otro_jugar"
+            android:layout_gravity="center_horizontal" />
+        <CheckBox
+            android:textColor="#D9000000"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Bloque de Tableros E."
+            android:id="@+id/check_otro_tabler"
+            android:layout_gravity="center_horizontal" />
+        <CheckBox
+            android:textColor="#D9000000"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Bloqueo de extintores"
+            android:id="@+id/check_otro_extin"
+            android:layout_gravity="center_horizontal" />
+        <CheckBox
+            android:textColor="#D9000000"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Dormir"
+            android:id="@+id/check_otro_dormi"
+            android:layout_gravity="center_horizontal" />
+        <CheckBox
+            android:textColor="#D9000000"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Hablar por telefono en movimiento"
+            android:id="@+id/check_otro_hablar"
+            android:layout_gravity="center_horizontal" />
+        <CheckBox
+            android:textColor="#D9000000"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Trabajar con Influencia de Alcohol"
+            android:id="@+id/check_otro_alcohol"
+            android:layout_gravity="center_horizontal" />
+        <CheckBox
+            android:textColor="#D9000000"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Uso de equipos Electronicos"
+            android:id="@+id/check_otro_electro"
+            android:layout_gravity="center_horizontal" />
+        <CheckBox
+            android:textColor="#D9000000"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Correr / No respetar las vias Peatonales"
+            android:id="@+id/check_otro_correr"
+            android:layout_gravity="center_horizontal" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:textColor="#D9000000"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        >
+        <TextView
+
+            android:textColor="#D9000000"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Describir otro desvio no descrito"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            />
+
+
+        <EditText
+
+            android:textSize="15dp"
+            android:id="@+id/edit_otro_desvio"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#F242A5F5">
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:paddingTop="12dp"
+
+            android:textSize="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descripcion"
+            android:layout_gravity="center"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:orientation="vertical"
+
+        android:layout_marginTop="30dp"
+        android:background="#F5F5F5"
+        >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        >
+        <TextView
+
+            android:textColor="#D9000000"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="* Ingresar una descripcion :"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            />
+
+
+
+        <EditText
+            android:id="@+id/edit_descrip"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:orientation="vertical"
+
+        android:layout_marginTop="30dp"
+        android:background="#F5F5F5"
+        >
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#F242A5F5">
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:paddingTop="12dp"
+
+            android:textSize="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tipo de tarea"
+            android:layout_gravity="center"
+
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        >
+
+        <CheckBox
+            android:textColor="#D9000000"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Manipulacion"
+            android:id="@+id/check_manipulacion"
+            android:layout_gravity="center_horizontal" />
+        <CheckBox
+            android:textColor="#D9000000"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Inspeccion"
+            android:id="@+id/check_inspeccion"
+            android:layout_gravity="center_horizontal" />
+
+        <CheckBox
+            android:textColor="#D9000000"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Operacion"
+            android:id="@+id/check_operacion"
+            android:layout_gravity="center_horizontal" />
+        <CheckBox
+            android:textColor="#D9000000"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Mantenimiento"
+            android:id="@+id/check_mantenimiento"
+            android:layout_gravity="center_horizontal" />
+        <CheckBox
+            android:textColor="#D9000000"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Lubricacion"
+            android:id="@+id/check_lubricacion"
+            android:layout_gravity="center_horizontal" />
+        <CheckBox
+            android:textColor="#D9000000"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Desplazamiento"
+            android:id="@+id/check_desplazamiento"
+            android:layout_gravity="center_horizontal" />
+        <CheckBox
+            android:textColor="#D9000000"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Limpieza"
+            android:id="@+id/check_limpieza"
+            android:layout_gravity="center_horizontal" />
+        <CheckBox
+            android:textColor="#D9000000"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Rutinaria"
+            android:id="@+id/check_rutinaria"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#F242A5F5">
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:paddingTop="12dp"
+
+            android:textSize="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Beneficio"
+            android:layout_gravity="center"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        >
+
+
+        <CheckBox
+            android:textColor="#D9000000"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Ahorro Tiempo"
+            android:id="@+id/check_ahorrotiempo"
+            android:layout_gravity="center_horizontal" />
+        <CheckBox
+            android:textColor="#D9000000"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Menos esfuerzo"
+            android:id="@+id/check_menosesfuer"
+            android:layout_gravity="center_horizontal" />
+        <CheckBox
+            android:textColor="#D9000000"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Mas Comodidad"
+            android:id="@+id/check_mascomodidad"
+            android:layout_gravity="center_horizontal" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        >
+        <TextView
+            android:textColor="#D9000000"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Acciones sugeridas para el cambio del comportamiento critico :"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            />
+        <EditText
+            android:id="@+id/edit_accionsug"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+
+        android:layout_marginTop="30dp"
+        android:background="#F5F5F5"
+        >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:background="#F5F5F5"
+        android:typeface="normal"
+        android:textAllCaps="false"
+        >
+        <Button
+            android:textAllCaps="false"
+            android:textSize="16dp"
+            android:onClick="return_onclick"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="Siguiente"
+            android:background="@color/colorPrimaryDark"
+            android:typeface="normal"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+
+        android:layout_marginTop="30dp"
+        android:background="#F5F5F5"
+        >
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

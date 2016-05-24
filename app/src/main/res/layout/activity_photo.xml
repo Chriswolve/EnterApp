@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cristhian.enterapp.PhotoActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="15sp"
+        android:layout_weight="7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="13">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="6">
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+
+            android:weightSum="4">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Adjuntar Fotos"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textColor="#c7000000"
+                android:layout_weight="2"
+                android:singleLine="false"
+                android:textIsSelectable="true"
+                android:typeface="sans" />
+            <ImageView
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cam3"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:layout_weight="3"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="6">
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        >
+
+        <Button
+
+            android:layout_margin="@dimen/margin_button"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+
+            android:textColor="#d16a1b9a"
+            android:textSize="16dp"
+            android:background="@drawable/buttonshape"
+            android:padding="@dimen/padding_button"
+            android:text="Cargar una foto +"
+            android:typeface="normal"
+            android:textAllCaps="false"
+
+            android:onClick="cargar_click" />
+
+        <TextView
+            android:id="@+id/tv_loads"
+            android:layout_margin="@dimen/margin_button"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:text="* Este campo no es obligatorio"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            />
+        <Button
+            android:textAllCaps="false"
+            android:layout_margin="@dimen/margin_button"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+
+
+            android:textSize="16dp"
+            android:textColor="#FFFFFF"
+
+            android:background="@color/colorPrimaryDark"
+            android:padding="@dimen/padding_button"
+            android:text="Finalizar"
+            android:typeface="normal"
+            android:onClick="finalizar_click"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:orientation="vertical"
+
+        android:layout_marginTop="30dp"
+        android:background="#F5F5F5"
+        >
+    </LinearLayout>
+</LinearLayout>
